@@ -1,0 +1,10 @@
+/home/cody/Repos/100_projects_leptos/project1_hello_world/target/debug/deps/libquote_use_macros-53ed8b1703b0e499.so: /home/cody/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-use-macros-0.7.2/src/lib.rs /home/cody/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-use-macros-0.7.2/src/prelude.rs /home/cody/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-use-macros-0.7.2/src/use_parser.rs /home/cody/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-use-macros-0.7.2/src/prelude/core.rs /home/cody/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-use-macros-0.7.2/src/prelude/std.rs /home/cody/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-use-macros-0.7.2/src/prelude/2021.rs
+
+/home/cody/Repos/100_projects_leptos/project1_hello_world/target/debug/deps/quote_use_macros-53ed8b1703b0e499.d: /home/cody/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-use-macros-0.7.2/src/lib.rs /home/cody/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-use-macros-0.7.2/src/prelude.rs /home/cody/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-use-macros-0.7.2/src/use_parser.rs /home/cody/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-use-macros-0.7.2/src/prelude/core.rs /home/cody/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-use-macros-0.7.2/src/prelude/std.rs /home/cody/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-use-macros-0.7.2/src/prelude/2021.rs
+
+/home/cody/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-use-macros-0.7.2/src/lib.rs:
+/home/cody/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-use-macros-0.7.2/src/prelude.rs:
+/home/cody/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-use-macros-0.7.2/src/use_parser.rs:
+/home/cody/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-use-macros-0.7.2/src/prelude/core.rs:
+/home/cody/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-use-macros-0.7.2/src/prelude/std.rs:
+/home/cody/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-use-macros-0.7.2/src/prelude/2021.rs:

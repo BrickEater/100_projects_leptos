@@ -1,0 +1,1 @@
+/home/cody/Repos/100_projects_leptos/p2_temperature_converter/target/wasm32-unknown-unknown/debug/p2_temperature_converter.wasm: /home/cody/Repos/100_projects_leptos/p2_temperature_converter/src/main.rs
