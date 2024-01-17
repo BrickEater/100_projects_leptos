@@ -1,29 +1,28 @@
 use leptos::*;
 
 fn main() {
-    leptos::mount_to_body(|| view! { <App/> })
+    mount_to_body(App)
 }
 
 #[component]
 fn App() -> impl IntoView {
+    let (display_message, set_display_message) = create_signal("".to_string());
     view! {
-        <h2>"Temperature Converter"</h2>
-        <Celsius_to_Fahrenheit/>
-        //<Fahrenheit_to_Celsius/>
-    }
-}
-
-#[component]
-fn Celsius_to_Fahrenheit() -> IntoView {
-    let (degrees, set_degress) = create_signal("I'm not sure what goes here".to_string());
-
-    view! {
-        <input type="text"
-            on:input= |ev| {
-            set_degree(event_target_value(&ev));
+        <label>"Celsius to Fahrenheit"</label>
+        <br/>
+        <input
+            type="text"
+            on:input=move |ev| {
+                let value = event_target_value(&ev);
+                match value.parse::<f32>() {
+                    Ok(num) => {
+                        let converted = (num * 9.0/5.0) +32.0;
+                        set_display_message(format!("{}°C = {}°F", num, converted));
+                    },
+                    Err(_) => set_display_message(String::from("Not a number")),
+                }
             }
-            prop:value=degrees
         />
-        <p>"Degrees are: {degrees}"</p>
+        <p>{display_message}</p>
     }
 }

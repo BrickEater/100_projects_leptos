@@ -1,0 +1,11 @@
+/home/cody/Repos/100_projects_leptos/p1_hello_world/target/wasm32-unknown-unknown/debug/deps/libciborium_ll-e69df7342161624a.rmeta: /home/cody/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ciborium-ll-0.2.1/src/lib.rs /home/cody/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ciborium-ll-0.2.1/src/dec.rs /home/cody/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ciborium-ll-0.2.1/src/enc.rs /home/cody/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ciborium-ll-0.2.1/src/hdr.rs /home/cody/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ciborium-ll-0.2.1/src/seg.rs
+
+/home/cody/Repos/100_projects_leptos/p1_hello_world/target/wasm32-unknown-unknown/debug/deps/libciborium_ll-e69df7342161624a.rlib: /home/cody/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ciborium-ll-0.2.1/src/lib.rs /home/cody/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ciborium-ll-0.2.1/src/dec.rs /home/cody/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ciborium-ll-0.2.1/src/enc.rs /home/cody/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ciborium-ll-0.2.1/src/hdr.rs /home/cody/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ciborium-ll-0.2.1/src/seg.rs
+
+/home/cody/Repos/100_projects_leptos/p1_hello_world/target/wasm32-unknown-unknown/debug/deps/ciborium_ll-e69df7342161624a.d: /home/cody/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ciborium-ll-0.2.1/src/lib.rs /home/cody/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ciborium-ll-0.2.1/src/dec.rs /home/cody/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ciborium-ll-0.2.1/src/enc.rs /home/cody/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ciborium-ll-0.2.1/src/hdr.rs /home/cody/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ciborium-ll-0.2.1/src/seg.rs
+
+/home/cody/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ciborium-ll-0.2.1/src/lib.rs:
+/home/cody/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ciborium-ll-0.2.1/src/dec.rs:
+/home/cody/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ciborium-ll-0.2.1/src/enc.rs:
+/home/cody/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ciborium-ll-0.2.1/src/hdr.rs:
+/home/cody/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ciborium-ll-0.2.1/src/seg.rs:
