@@ -1,0 +1,10 @@
+/home/goblin/Repos/100_projects_leptos/p3_basic_calculator/target/debug/deps/libquote_use_macros-5a67e0a12697cc5a.so: /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-use-macros-0.7.2/src/lib.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-use-macros-0.7.2/src/prelude.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-use-macros-0.7.2/src/use_parser.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-use-macros-0.7.2/src/prelude/core.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-use-macros-0.7.2/src/prelude/std.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-use-macros-0.7.2/src/prelude/2021.rs
+
+/home/goblin/Repos/100_projects_leptos/p3_basic_calculator/target/debug/deps/quote_use_macros-5a67e0a12697cc5a.d: /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-use-macros-0.7.2/src/lib.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-use-macros-0.7.2/src/prelude.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-use-macros-0.7.2/src/use_parser.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-use-macros-0.7.2/src/prelude/core.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-use-macros-0.7.2/src/prelude/std.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-use-macros-0.7.2/src/prelude/2021.rs
+
+/home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-use-macros-0.7.2/src/lib.rs:
+/home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-use-macros-0.7.2/src/prelude.rs:
+/home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-use-macros-0.7.2/src/use_parser.rs:
+/home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-use-macros-0.7.2/src/prelude/core.rs:
+/home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-use-macros-0.7.2/src/prelude/std.rs:
+/home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-use-macros-0.7.2/src/prelude/2021.rs:

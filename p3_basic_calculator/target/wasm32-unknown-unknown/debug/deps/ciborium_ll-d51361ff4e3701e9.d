@@ -1,0 +1,11 @@
+/home/goblin/Repos/100_projects_leptos/p3_basic_calculator/target/wasm32-unknown-unknown/debug/deps/libciborium_ll-d51361ff4e3701e9.rmeta: /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ciborium-ll-0.2.1/src/lib.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ciborium-ll-0.2.1/src/dec.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ciborium-ll-0.2.1/src/enc.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ciborium-ll-0.2.1/src/hdr.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ciborium-ll-0.2.1/src/seg.rs
+
+/home/goblin/Repos/100_projects_leptos/p3_basic_calculator/target/wasm32-unknown-unknown/debug/deps/libciborium_ll-d51361ff4e3701e9.rlib: /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ciborium-ll-0.2.1/src/lib.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ciborium-ll-0.2.1/src/dec.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ciborium-ll-0.2.1/src/enc.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ciborium-ll-0.2.1/src/hdr.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ciborium-ll-0.2.1/src/seg.rs
+
+/home/goblin/Repos/100_projects_leptos/p3_basic_calculator/target/wasm32-unknown-unknown/debug/deps/ciborium_ll-d51361ff4e3701e9.d: /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ciborium-ll-0.2.1/src/lib.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ciborium-ll-0.2.1/src/dec.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ciborium-ll-0.2.1/src/enc.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ciborium-ll-0.2.1/src/hdr.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ciborium-ll-0.2.1/src/seg.rs
+
+/home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ciborium-ll-0.2.1/src/lib.rs:
+/home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ciborium-ll-0.2.1/src/dec.rs:
+/home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ciborium-ll-0.2.1/src/enc.rs:
+/home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ciborium-ll-0.2.1/src/hdr.rs:
+/home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ciborium-ll-0.2.1/src/seg.rs:
