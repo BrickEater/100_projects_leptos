@@ -1,35 +1,43 @@
-/*
-* I need to make buttons for numbers 0-9, +, -, *, and /
-* I should just make one component that takes a prop which inputs those values to an input bar
-* From there I can just evaluate the field and spit out the answer
-*
-* So, I need a componenet for buttons, a component for the display field, and a componenet for the
-* evaluated value.
-*
-* Here is an example of what props look like and how they are used:
-* https://codesandbox.io/p/devbox/3-components-0-5-5vvl69?file=%2Fsrc%2Fmain.rs
-*
-*
-*
-*
-*
-* */
-
 use leptos::*;
 
 #[component]
 fn App() -> impl IntoView {
+    let (something, set_something) = create_signal(String::new());
     view! {
-        <Buttons/>
+        <Buttons symbol="1".to_string() setter=set_something/>
+        <Buttons symbol="2".to_string() setter=set_something/>
+        <Buttons symbol="3".to_string() setter=set_something/>
+        <Buttons symbol="4".to_string() setter=set_something/>
+        <Buttons symbol="5".to_string() setter=set_something/>
+        <Buttons symbol="6".to_string() setter=set_something/>
+        <Buttons symbol="7".to_string() setter=set_something/>
+        <Buttons symbol="8".to_string() setter=set_something/>
+        <Buttons symbol="9".to_string() setter=set_something/>
+        <Buttons symbol="*".to_string() setter=set_something/>
+        <Buttons symbol="/".to_string() setter=set_something/>
+        <Buttons symbol="+".to_string() setter=set_something/>
+        <Buttons symbol="-".to_string() setter=set_something/>
+        <Buttons symbol="=".to_string() setter=set_something/>
+
+        <br/>
+        <Display getter=something/>
     }
 }
 
 #[component]
-fn Buttons() -> impl IntoView {
+fn Buttons(symbol: String, setter: WriteSignal<String>) -> impl IntoView {
+    let symbol_clone = symbol.clone();
     view! {
-        <button>
-            "Some button"
-        </button>
+        <button on:click= move |_| {setter.update(|n| n.push_str(&symbol))}>{symbol_clone}</button>
+    }
+}
+
+#[component]
+fn Display(getter: ReadSignal<String>) -> impl IntoView {
+    view! {
+        <p>
+            {getter}
+        </p>
     }
 }
 
