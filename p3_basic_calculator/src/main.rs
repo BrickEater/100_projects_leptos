@@ -17,7 +17,8 @@ fn App() -> impl IntoView {
         <Buttons symbol="/".to_string() setter=set_something/>
         <Buttons symbol="+".to_string() setter=set_something/>
         <Buttons symbol="-".to_string() setter=set_something/>
-        <Buttons symbol="=".to_string() setter=set_something/>
+        <Eval_Button symbol="=".to_string()/>
+        <Clear_Button symbol="C".to_string() setter=set_something/>
 
         <br/>
         <Display getter=something/>
@@ -29,6 +30,22 @@ fn Buttons(symbol: String, setter: WriteSignal<String>) -> impl IntoView {
     let symbol_clone = symbol.clone();
     view! {
         <button on:click= move |_| {setter.update(|n| n.push_str(&symbol))}>{symbol_clone}</button>
+    }
+}
+
+#[component]
+fn Eval_Button(symbol: String) -> impl IntoView {
+    let symbol_clone = symbol.clone();
+    view! {
+        <button>{symbol_clone}</button>
+    }
+}
+
+#[component]
+fn Clear_Button(symbol: String, setter: WriteSignal<String>) -> impl IntoView {
+    let symbol_clone = symbol.clone();
+    view! {
+        <button on:click= move |_| {setter.update(|n| *n = "".to_string())}>{symbol_clone}</button>
     }
 }
 
