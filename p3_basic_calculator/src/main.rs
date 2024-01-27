@@ -2,26 +2,27 @@ use leptos::*;
 
 #[component]
 fn App() -> impl IntoView {
-    let (something, set_something) = create_signal(String::new());
+    let (equation, set_equation) = create_signal(String::new());
+    let (solution, set_solution) = create_signal(String::new());
     view! {
-        <Buttons symbol="1".to_string() setter=set_something/>
-        <Buttons symbol="2".to_string() setter=set_something/>
-        <Buttons symbol="3".to_string() setter=set_something/>
-        <Buttons symbol="4".to_string() setter=set_something/>
-        <Buttons symbol="5".to_string() setter=set_something/>
-        <Buttons symbol="6".to_string() setter=set_something/>
-        <Buttons symbol="7".to_string() setter=set_something/>
-        <Buttons symbol="8".to_string() setter=set_something/>
-        <Buttons symbol="9".to_string() setter=set_something/>
-        <Buttons symbol="*".to_string() setter=set_something/>
-        <Buttons symbol="/".to_string() setter=set_something/>
-        <Buttons symbol="+".to_string() setter=set_something/>
-        <Buttons symbol="-".to_string() setter=set_something/>
+        <Buttons symbol="1".to_string() setter=set_equation/>
+        <Buttons symbol="2".to_string() setter=set_equation/>
+        <Buttons symbol="3".to_string() setter=set_equation/>
+        <Buttons symbol="4".to_string() setter=set_equation/>
+        <Buttons symbol="5".to_string() setter=set_equation/>
+        <Buttons symbol="6".to_string() setter=set_equation/>
+        <Buttons symbol="7".to_string() setter=set_equation/>
+        <Buttons symbol="8".to_string() setter=set_equation/>
+        <Buttons symbol="9".to_string() setter=set_equation/>
+        <Buttons symbol="*".to_string() setter=set_equation/>
+        <Buttons symbol="/".to_string() setter=set_equation/>
+        <Buttons symbol="+".to_string() setter=set_equation/>
+        <Buttons symbol="-".to_string() setter=set_equation/>
         <Eval_Button symbol="=".to_string()/>
-        <Clear_Button symbol="C".to_string() setter=set_something/>
+        <Clear_Button symbol="C".to_string() setter=set_equation/>
 
         <br/>
-        <Display getter=something/>
+        <Display getter=equation/>
     }
 }
 
@@ -34,7 +35,11 @@ fn Buttons(symbol: String, setter: WriteSignal<String>) -> impl IntoView {
 }
 
 #[component]
-fn Eval_Button(symbol: String) -> impl IntoView {
+fn Eval_Button(
+    symbol: String,
+    getter_equation: ReadSignal<String>,
+    setter_solution: WriteSignal<String>,
+) -> impl IntoView {
     let symbol_clone = symbol.clone();
     view! {
         <button>{symbol_clone}</button>

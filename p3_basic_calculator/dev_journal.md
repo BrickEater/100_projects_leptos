@@ -1,3 +1,6 @@
+2024/jan/27:
+I'm really struggling to figure out what to do with this eval_button. I decided that I first need to confirm to myself that I can interact with the value of the getter. From there I will output to a different setter and, finally, print another getter to the page. At least, then, I'll know I can interact with it and move forward from there. I'm really worried I'm going to have to make a shunting yard algorithm from scratch...
+
 2024/jan/26:
 I made a clear button that clears whatever is held in the getter function. It wasn't as hard as I thought it was going to be but I still don't quite understand the `*n` syntax. I kinda get that it's a pointer but I need to read more about it. I only used it because I've seen it done like that in the past and it worked.
 
