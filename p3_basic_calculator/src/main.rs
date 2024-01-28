@@ -18,11 +18,11 @@ fn App() -> impl IntoView {
         <Buttons symbol="/".to_string() setter=set_equation/>
         <Buttons symbol="+".to_string() setter=set_equation/>
         <Buttons symbol="-".to_string() setter=set_equation/>
-        <Eval_Button symbol="=".to_string()/>
+        <Eval_Button symbol="=".to_string() getter_equation=equation setter_solution=set_solution/>
         <Clear_Button symbol="C".to_string() setter=set_equation/>
 
         <br/>
-        <Display getter=equation/>
+        <Display getter=equation getter_solution=solution/>
     }
 }
 
@@ -42,7 +42,12 @@ fn Eval_Button(
 ) -> impl IntoView {
     let symbol_clone = symbol.clone();
     view! {
-        <button>{symbol_clone}</button>
+        <button on:click= move |_| {
+            match getter_equation.get().parse::<f32>() {
+                Ok(num) => {setter_solution.update(|n| *n = "Numbers".to_string())},
+                Err(_) => {setter_solution.update(|n| *n = "Numbers and stuff".to_string())}
+            }
+        }>{symbol_clone}</button>
     }
 }
 
@@ -55,10 +60,14 @@ fn Clear_Button(symbol: String, setter: WriteSignal<String>) -> impl IntoView {
 }
 
 #[component]
-fn Display(getter: ReadSignal<String>) -> impl IntoView {
+fn Display(getter: ReadSignal<String>, getter_solution: ReadSignal<String>) -> impl IntoView {
     view! {
         <p>
             {getter}
+        </p>
+        </br>
+        <p>
+            {getter_solution}
         </p>
     }
 }

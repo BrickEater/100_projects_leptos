@@ -1,0 +1,1 @@
+/home/goblin/Repos/100_projects_leptos/ref_components_and_propse/target/wasm32-unknown-unknown/debug/ref_components_and_props.wasm: /home/goblin/Repos/100_projects_leptos/ref_components_and_propse/src/main.rs

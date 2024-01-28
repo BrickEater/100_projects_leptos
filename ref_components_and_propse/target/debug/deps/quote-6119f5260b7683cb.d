@@ -1,0 +1,11 @@
+/home/goblin/Repos/100_projects_leptos/exp1_components/target/debug/deps/libquote-6119f5260b7683cb.rmeta: /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-1.0.35/src/lib.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-1.0.35/src/ext.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-1.0.35/src/format.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-1.0.35/src/ident_fragment.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-1.0.35/src/to_tokens.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-1.0.35/src/runtime.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-1.0.35/src/spanned.rs
+
+/home/goblin/Repos/100_projects_leptos/exp1_components/target/debug/deps/quote-6119f5260b7683cb.d: /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-1.0.35/src/lib.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-1.0.35/src/ext.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-1.0.35/src/format.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-1.0.35/src/ident_fragment.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-1.0.35/src/to_tokens.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-1.0.35/src/runtime.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-1.0.35/src/spanned.rs
+
+/home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-1.0.35/src/lib.rs:
+/home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-1.0.35/src/ext.rs:
+/home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-1.0.35/src/format.rs:
+/home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-1.0.35/src/ident_fragment.rs:
+/home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-1.0.35/src/to_tokens.rs:
+/home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-1.0.35/src/runtime.rs:
+/home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-1.0.35/src/spanned.rs:

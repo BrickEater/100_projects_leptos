@@ -1,3 +1,8 @@
+2024/jan/28:
+I'm really starting to feel not using a debugger is fucking me up. It's hard to understand some of the methods a library has without reading the documentation and, even after reading it, still sometimes awkward. I know that a debugger would help me out a lot and I should just bite the bullet and set it up.
+
+Also, I set up the eval button to take some information from the getter and parse it with a match construct. I isn't working right now so I'm not sure what the issue is but I think I might have mixed up my getters and setters. I should use better names...
+
 2024/jan/27:
 I'm really struggling to figure out what to do with this eval_button. I decided that I first need to confirm to myself that I can interact with the value of the getter. From there I will output to a different setter and, finally, print another getter to the page. At least, then, I'll know I can interact with it and move forward from there. I'm really worried I'm going to have to make a shunting yard algorithm from scratch...
 

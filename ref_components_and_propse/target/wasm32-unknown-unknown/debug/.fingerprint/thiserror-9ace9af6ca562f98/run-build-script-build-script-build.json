@@ -1,0 +1,1 @@
+{"rustc":14619409905516305622,"features":"","declared_features":"","target":0,"profile":0,"path":0,"deps":[[6644485573429891122,"build_script_build",false,9211104489787298309]],"local":[{"RerunIfChanged":{"output":"wasm32-unknown-unknown/debug/build/thiserror-9ace9af6ca562f98/output","paths":["build/probe.rs"]}}],"rustflags":[],"metadata":0,"config":0,"compile_kind":0}

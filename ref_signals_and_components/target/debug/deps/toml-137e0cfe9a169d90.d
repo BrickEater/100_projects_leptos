@@ -1,0 +1,13 @@
+/home/goblin/Repos/100_projects_leptos/ref_signals_and_components/target/debug/deps/libtoml-137e0cfe9a169d90.rmeta: /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.5.11/src/lib.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.5.11/src/map.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.5.11/src/value.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.5.11/src/datetime.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.5.11/src/ser.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.5.11/src/de.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.5.11/src/tokens.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.5.11/src/macros.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.5.11/src/spanned.rs
+
+/home/goblin/Repos/100_projects_leptos/ref_signals_and_components/target/debug/deps/toml-137e0cfe9a169d90.d: /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.5.11/src/lib.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.5.11/src/map.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.5.11/src/value.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.5.11/src/datetime.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.5.11/src/ser.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.5.11/src/de.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.5.11/src/tokens.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.5.11/src/macros.rs /home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.5.11/src/spanned.rs
+
+/home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.5.11/src/lib.rs:
+/home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.5.11/src/map.rs:
+/home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.5.11/src/value.rs:
+/home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.5.11/src/datetime.rs:
+/home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.5.11/src/ser.rs:
+/home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.5.11/src/de.rs:
+/home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.5.11/src/tokens.rs:
+/home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.5.11/src/macros.rs:
+/home/goblin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.5.11/src/spanned.rs:
